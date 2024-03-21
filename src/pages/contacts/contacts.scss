@@ -1,0 +1,62 @@
+.contacts {
+  margin-block: 80px;
+  
+  &__title {
+    font-size: 105px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  &__info {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__contacts {
+    display: flex;
+    align-items: center;
+  }
+
+  &__adresses {
+    display: flex;
+    flex-direction: column;
+    gap: 38px;
+    margin-right: 60px;
+  }
+
+  &__social {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  &__link {
+    font-size: 20px;
+    text-transform: uppercase;
+  }
+
+  &__insta {
+    display: block;
+    height: 40px;
+    width: 40px;
+    background-image: url(../../images/icon_insta-white.svg);
+  }
+
+  &__face {
+    display: block;
+    height: 40px;
+    width: 40px;
+    background-image: url(../../images/icon_face-white.svg);
+  }
+
+  &__youtube {
+    display: block;
+    height: 40px;
+    width: 40px;
+    background-image: url(../../images/icon_youtube-white.svg);
+  }
+}
+
+.container {
+  padding-inline: 80px;
+}

@@ -1,0 +1,67 @@
+.footer {
+  padding-block: 20px;
+  
+  &__box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__logo {
+    display: block;
+    width: 101px;
+    height: 44px;
+    background-image: url(../../images/icon_iasa.svg);
+  }
+
+  &__ul {
+    display: flex;
+    gap: 50px;
+  }
+
+  &__link {
+    text-transform: uppercase;
+    color: white;
+
+    &:hover {
+      color: #ffd300;
+    }
+  }
+
+  &__social {
+    display: flex;
+    gap: 25px;
+  }
+
+  &__insta {
+    display: block;
+    height: 38px;
+    width: 38px;
+    background-image: url(../../images/icon_insta.svg);
+  }
+
+  &__telega {
+    display: block;
+    height: 38px;
+    width: 38px;
+    background-image: url(../../images/icon_telega.svg);
+  }
+
+  &__face {
+    display: block;
+    height: 38px;
+    width: 38px;
+    background-image: url(../../images/icon_face.svg);
+  }
+
+  &__rights {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    padding-top: 30px;
+  }
+}
+
+.container {
+  padding-inline: 40px;
+}

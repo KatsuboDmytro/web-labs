@@ -1,0 +1,32 @@
+.header {
+  padding-block: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid white;
+
+  &__logo {
+    display: block;
+    width: 101px;
+    height: 44px;
+    background-image: url(../../images/icon_iasa.svg);
+  }
+
+  &__ul {
+    display: flex;
+    gap: 50px;
+  }
+
+  &__link {
+    text-transform: uppercase;
+    color: white;
+
+    &:hover {
+      color: #ffd300;
+    }
+  }
+}
+
+.container {
+  padding-inline: 40px;
+}
