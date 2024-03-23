@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/web-labs/static/css/main.d65a2627.css",
-    "main.js": "/web-labs/static/js/main.899a7095.js",
+    "main.css": "/web-labs/static/css/main.faca4a63.css",
+    "main.js": "/web-labs/static/js/main.69fae6e6.js",
+    "static/media/sleep.jpg": "/web-labs/static/media/sleep.8d0633acf5f61c10ac76.jpg",
     "static/media/icon_insta-white.svg": "/web-labs/static/media/icon_insta-white.24b667c05cacac0ea14b.svg",
     "static/media/icon_youtube-white.svg": "/web-labs/static/media/icon_youtube-white.ff5874ca0e6c4ff2b460.svg",
     "static/media/icon_face-white.svg": "/web-labs/static/media/icon_face-white.798be8632f4825237610.svg",
@@ -10,11 +11,11 @@
     "static/media/icon_telega.svg": "/web-labs/static/media/icon_telega.18348649a5c652679426.svg",
     "index.html": "/web-labs/index.html",
     "static/media/icon_face.svg": "/web-labs/static/media/icon_face.6e628053edcb56183b9d.svg",
-    "main.d65a2627.css.map": "/web-labs/static/css/main.d65a2627.css.map",
-    "main.899a7095.js.map": "/web-labs/static/js/main.899a7095.js.map"
+    "main.faca4a63.css.map": "/web-labs/static/css/main.faca4a63.css.map",
+    "main.69fae6e6.js.map": "/web-labs/static/js/main.69fae6e6.js.map"
   },
   "entrypoints": [
-    "static/css/main.d65a2627.css",
-    "static/js/main.899a7095.js"
+    "static/css/main.faca4a63.css",
+    "static/js/main.69fae6e6.js"
   ]
 }
