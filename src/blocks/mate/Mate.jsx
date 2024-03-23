@@ -1,19 +1,14 @@
 import './mate.scss';
+import sleepers from '../../images/sleep.jpg';
 
-export const Mate = ({ ...person }) => {
-  const am = [{
-    name: 'Ihor',
-    surname: 'Sikorsky',
-    course: '3',
-    group: 'KA-12',
-    habari: '5000$',
-}];
+export const Mate = ({ person }) => {
 
   return (
     <article className='person'>
-      <h3 className="person__fullname"></h3>
-      <span className="person__edu"></span>
-      <span className="person__habari"></span>
+      <img src={sleepers} alt="sleepers" className='person__image' />
+      <h3 className="person__fullname">{person.name} {person.surname} </h3>
+      <span className="person__edu">Course: {person.course}, group: {person.group}</span>
+      <p className="person__habari">Habari for all time: {person.habari}$</p>
     </article>
   )
 }
