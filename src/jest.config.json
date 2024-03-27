@@ -1,0 +1,6 @@
+{
+  "presets": ["@babel/preset-react", "babel-jest"],
+  "transform": {
+    "^.+\\.jsx?$": "babel-jest"
+  }
+}
