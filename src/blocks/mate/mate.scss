@@ -1,6 +1,22 @@
 .person {
-  
-  &__image {
-    height: 150px;
-  }
+  border: 2px solid white;
+  border-radius: 15px;
+  padding: 15px;
+
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.delete-button {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.delete-button:hover {
+  background-color: #c82333;
 }

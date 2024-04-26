@@ -1,14 +1,25 @@
+import axios from 'axios';
 import './mate.scss';
-import sleepers from '../../images/sleep.jpg';
 
-export const Mate = ({ person }) => {
+export const Mate = ({ person, fetchStudents }) => {
+  const fullname = `${person.name} ${person.surname}`;
+
+  const handleDelete = async () => {
+    try {
+      await axios.delete(`http://localhost:3001/students/${person.studentId}`);
+    } catch (error) {
+      console.error('Error deleting student:', error);
+    }
+    fetchStudents();
+  };
 
   return (
     <article className='person'>
-      <img src={sleepers} alt="sleepers" className='person__image' />
-      <h3 className="person__fullname">{person.name} {person.surname} </h3>
-      <span className="person__edu">Course: {person.course}, group: {person.group}</span>
-      <p className="person__habari">Habari for all time: {person.habari}$</p>
+      <div className="person-info">
+        <h3 className="person__fullname">{fullname}</h3>
+        <span className="person__edu">Course: {person.course}, Group: {person.group}</span>
+      </div>
+      <span className="delete-button" onClick={handleDelete}>x</span>
     </article>
   )
 }
